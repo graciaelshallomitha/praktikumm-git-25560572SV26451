@@ -66,3 +66,8 @@ git push origin feature/dark-mode --force → force push hasil rebase ke GitHub.
 git config --global core.editor "code --wait" → mengatur VS Code sebagai editor Git.
 
 git config --global core.editor "notepad" → alternatif editor jika VS Code bermasalah.
+
+## Branch Protection Rule
+Repository ini menggunakan Branch Protection Rule pada branch `main`:
+- Require pull request sebelum merge
+- Restrict direct push ke `main`
